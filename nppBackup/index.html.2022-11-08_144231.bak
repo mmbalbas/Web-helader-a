@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+   <head>
+<meta charset="UTF-8">
+        <link rel="stylesheet" href="css/index.css">    
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="description" content="sitio adapatable">
+      <meta name="keyword" content="adaptble, fijo, caballo">
+      <meta name="author" content="Manuel">
+      <meta name="audience" content="all">
+      <title>Maqueta de dos columnas</title>
+     
+   </head>
+   <body>
+      <div id="contenedor">
+         <div id="cabecera">
+            <h1>Cabecera</h1>
+ 
+         </div>
+         <!--fin cabecera-->
+         <div id="menu">
+           
+      <ul>
+         <li><a class="active" href="#">Enlace</a></li>
+         <li><a href="#">Enlace</a></li>
+         <li><a href="#">Enlace</a></li>
+         <li><a href="#">Enlace</a></li>
+         <li><a href="#">Enlace</a></li>
+      </ul>
+         </div>
+         <!--fin menu-->
+         <div id="contenido">
+            <div id="principal">
+               <h2>contenido</h2>
+            </div>
+            <div id="secundario">
+               <h3>Aside</h3>
+            </div>
+         </div>
+         <!--fin contenido-->
+         <div id="pie"><small>Pie</small></div>
+         <!--fin de pie-->
+      </div>
+      <!--fin de contendor-->
+   </body>
+</html>

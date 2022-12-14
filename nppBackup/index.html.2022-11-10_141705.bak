@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+   <head>
+      <meta charset="UTF-8">
+      <link rel="stylesheet" href="css/index.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="description" content="sitio de heladeria el polo">
+      <meta name="keyword" content="adaptble, fijo, caballo">
+      <meta name="author" content="Manuel Balbás">
+      <meta name="audience" content="all">
+      <title>Heladería El Polo</title>
+   </head>
+   <body>
+      <div id="contenedor">
+         <div id="cabecera">
+            <h1>HELADERÍA EL POLO</h1>
+            <ul>
+               <li><a class="active" href="#">Home</a></li>
+               <li><a href="helados.html">Helados</a></li>
+               <li><a href="sundaes.html">Sundaes</a></li>
+               <li><a href="batidos.html">Batidos</a></li>
+               <li><a href="localizacion.html">Dónde estamos</a></li>
+            </ul>
+         </div>
+         <!--fin cabecera-->
+         <div id="contenido">
+            <div class="principal">
+               <h2 class="productos">HELADOS</h2>
+               <img src="img/sabores.jpg" alt="helado"><br><br><br>
+               <details>
+                  <summary id="helados"><span class="etiqueta">SABORES</span></summary>
+                  <p class="sabores">Hazel-nuttin' But Chocolate</p>
+                  <p class="sabores">Caramel Chew Chew</p>
+                  <p class="sabores">PCherry Garcia®</p>
+                  <p class="sabores">Chocolate Fudge Brownie</p>
+                  <p class="sabores">Cookie Dough</p>
+                  <p class="sabores">Double Caramel Brownie</p>
+                  <p class="sabores">Peanut Butter Cup</p>
+                  <p class="sabores">Phish Food</p>
+               </details>
+            </div>
+            <div class="principal">
+               <h2 class="productos">SUNDAES</h2>
+               <img src="img/sundae.jpg" alt="sundae"><br><br><br>
+               <details>
+                  <summary id="sundaes"><span class="etiqueta">SABORES</span></summary>
+                  <p class="sabores">Hot Fudge Sundae</p>
+                  <p class="sabores">Brownie Special</p>
+                  <p class="sabores">Cookie Cookie Sundae</p>
+               </details>
+            </div>
+            <div class="principal">
+               <h2 class="productos">BATIDOS</h2>
+               <img src="img/batidos.jpg" alt="batido"><br><br><br>
+               <details>
+                  <summary id="batidos"><span class="etiqueta">SABORES</span></summary>
+                  <p class="sabores">Amor por el Chocolate</p>
+                  <p class="sabores">Vainilla Maravilla</p>
+                  <p class="sabores">Caramel Lovers</p>
+                  <p class="sabores">Half Baked®</p>
+               </details>
+            </div>
+            <div class="principal">
+               <h2 class="productos">EXTRAS</h2>
+               <img src="img/ofertas.jpg" alt="ofertas"><br><br><br>
+               <details>
+                  <summary id="ofertas"><span class="etiqueta">SABORES</span></summary>
+                  <p class="sabores">Crepes</p>
+                  <p class="sabores">Gofres</p>
+               </details>
+            </div>
+         </div>
+         <!--fin contenido-->
+         <div id="pie">
+            <div class="direccion">
+               <img src="img/posicion250.png" alt="direccion">
+               <h3 style="margin-top: 16px;">Ronda das Fontiñas 41, bajo.</h3>
+               <h3>27002. Lugo. Galicia</h3>
+            </div>
+            <div class="mail">
+               <img src="img/mail100.png" alt="email">
+               <h3>Tfno- 982 000 000</h3>
+               <h3>Móvil- 666 487 754</h3>
+            </div>
+            <div class="telefono">
+               <img src="img/movil100.png" alt="telefono">
+               <h3 style="margin-top: 65px;">contacto.heladerias@heladerias.com</h3>
+               <h3>info.heladerias@heladerias.com</h3>
+            </div>
+         </div>
+         <!--fin de pie-->
+      </div>
+      <!--fin de contendor-->
+   </body>
+</html>

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+   <head>
+      <meta charset="UTF-8">
+      <link rel="stylesheet" href="css/index.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="description" content="sitio de heladeria el polo">
+      <meta name="keyword" content="adaptble, fijo, caballo">
+      <meta name="author" content="Manuel Balbás">
+      <meta name="audience" content="all">
+      <title>Heladería El Polo</title>
+   </head>
+   <body>
+      <div id="contenedor">
+         <div id="cabecera">
+		 <h1>HELADERÍA EL POLO</h1>
+            <ul>
+               <li><a class="active" href="#">Enlace</a></li>
+               <li><a href="#">Enlace</a></li>
+               <li><a href="#">Enlace</a></li>
+               <li><a href="#">Enlace</a></li>
+               <li><a href="#">Enlace</a></li>
+            </ul>
+         </div>
+         <!--fin cabecera-->
+         <div id="contenido">
+            <div class="principal">
+               <h2>SABORES</h2>
+               <img src="img/sabores.jpg" alt="helado"><br><br><br>
+               <label for="helados" class="etiqueta">ELIJE UN SABOR</label><br><br>
+               <select name="helados" id="helados">
+                  <option value="hazel">Hazel-nuttin' But Chocolate</option>
+                  <option value="caramel">Caramel Chew Chew</option>
+                  <option value="pcherry">PCherry Garcia®</option>
+                  <option value="chocolate">Chocolate Fudge Brownie</option>
+                  <option value="cookie">Cookie Dough</option>
+                  <option value="doublecaramel">Double Caramel Brownie</option>
+                  <option value="peanutbutterl">Peanut Butter Cup</option>
+                  <option value="phoshfood">Phish Food</option>
+               </select>
+            </div>
+            <div class="principal">
+               <h2>SUNDAES</h2>
+               <img src="img/sundae.jpg" alt="sundae"><br><br><br>
+               <label for="sundaes" class="etiqueta">ELIJE UN SABOR</label><br><br>
+               <select name="sundaes" id="sundaes">
+                  <option value="hotfudge">Hot Fudge Sundae</option>
+                  <option value="brownie">Brownie Special</option>
+                  <option value="cookiesundae">Cookie Cookie Sundae</option>
+               </select>
+            </div>
+            <div class="principal">
+               <h2>BATIDOS</h2>
+               <img src="img/batidos.jpg" alt="batido"><br><br><br>
+               <label for="batidos" class="etiqueta">ELIJE UN SABOR</label><br><br>
+               <select name="batidos" id="batidos">
+                  <option value="amor">Amor por el Chocolate</option>
+                  <option value="vainilla">Vainilla Maravilla</option>
+                  <option value="caramel">Caramel Lovers</option>
+                  <option value="halfbaked">Half Baked®</option>
+               </select>
+            </div>
+            <div class="principal">
+               <h2>OFERTAS COMPLEMENTARIAS</h2>
+               <img src="img/ofertas.jpg" alt="ofertas"><br><br><br>
+               <label for="ofertas" class="etiqueta">ELIJE LA OFERTA</label><br><br>
+               <select name="ofertas" id="ofertas">
+                  <option value="crepes">Crepes</option>
+                  <option value="gofres">Gofres</option>
+               </select>
+            </div>
+         </div>
+         <!--fin contenido-->
+         <div id="pie">
+            <div id="foothead">
+               <h2>PARRAFOS Y VARIOS</h2>
+            </div>
+            <!--fin de foothead-->
+            <div id="avisos">
+               <ul>
+                  <li class="contactanos-1">
+                     <a href="#" target="_self">Contáctanos</a>
+                  </li>
+                  <li class="aviso-de-privacidad">
+                     <a href="#" target="_blank">Aviso de Privacidad</a>
+                  </li>
+                  <li class="cqpolicy">
+                     <a href="#" target="_blank">Aviso de Cookies</a>
+                  </li>
+                  <li class="mapa-del-sitio">
+                     <a href="#" >Mapa del Sitio</a>
+                  </li>
+                  <li class="aviso-legal-1">
+                     <a href="#" target="_blank">Aviso Legal</a>
+                  </li>
+               </ul>
+            </div>
+            <!--fin de avisos-->
+         </div>
+         <!--fin de pie-->
+      </div>
+      <!--fin de contendor-->
+   </body>
+</html>

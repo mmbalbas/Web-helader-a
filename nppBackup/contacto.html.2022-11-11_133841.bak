@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+   <head>
+      <meta charset="UTF-8">
+      <link rel="stylesheet" href="css/contacto.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="description" content="sitio de heladeria el polo">
+      <meta name="keyword" content="adaptble, fijo, caballo">
+      <meta name="author" content="Manuel Balbás">
+      <meta name="audience" content="all">
+      <title>Heladería El Polo</title>
+      <style>
+         .formulario {
+         width: 70%;
+         height: auto;
+         margin: 0 auto;
+         text-align: center;
+         font-size: 1rem;
+         color: white;
+         text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 2px lightblue;
+         }
+         .botonenviar {
+cursor: pointer;
+width: 8rem;
+height: 2rem;
+border-radius: 10px;
+background-color: #730202;
+}
+.botonenviar:hover {
+color: blue;
+text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 10px lightblue;
+}
+         
+      </style>
+   </head>
+   <body>
+      <div id="contenedor">
+         <div id="cabecera">
+            <div class="elpolo">
+               <h1>HELADERÍA EL POLO</h1>
+            </div>
+            <!-- cierre elpolo -->
+            <div class="navegacion">
+               <ul>
+                  <li><a class="active" href="#">Home</a></li>
+                  <li><a href="helados.html">Helados</a></li>
+                  <li><a href="sundaes.html">Sundaes</a></li>
+                  <li><a href="contacto.html">Contacto</a></li>
+                  <li><a href="localizacion.html">Dónde estamos</a></li>
+               </ul>
+            </div>
+            <!-- cierre navegacion -->
+         </div>
+         <!--fin cabecera-->
+         <div id="contenido">
+            <div class="formulario">
+               <h2>FORMULARIO DE CONTACTO:</h2>
+               <br><br>
+               <form action="enviar-formulario.php" method="post">
+                  <label for="nombre">Nombre:</label>
+                  <input maxlength="50" name="nombre" id="nombre" required size="50" type="text" placeholder="Escribe tu nombre"><br><br>
+                  <label for="apellidos">Apellidos:</label>
+                  <input maxlength="50" name="apellidos" id="apellidos" required size="50" type="text" placeholder="Escribe tus apellidos"><br><br>
+                  <label for="email">Email:</label>
+                  <input name="email" id="email" required type="email" placeholder="Escribe tu email">
+                  <label for="telefono">Teléfono</label>
+                  <input name="telefono" id="telefono" pattern="[0-9]{9}" required type="tel" placeholder="XXXXXXXXX">
+                  <label for="provincia">Provincia:</label>
+                  <select name="provincia" id="provincia">
+                     <option value="Coruña">A Coruña</option>
+                     <option value="Lugo">Lugo</option>
+                     <option value="Ourense">Ourense</option>
+                     <option value="Pontevedra">Pontevedra</option>
+                  </select>
+                  <br><br>
+                  <label for="preferencia">Preferencias:</label>
+                  <input list="preferencias" name="preferencia" id="preferencia" type="text">
+                  <datalist id="preferencias">
+                     <option value="Helados"></option>
+                     <option value="Sundaes"></option>
+                     <option value="Batidos"></option>
+                  </datalist>
+                  <label>Fecha:</label>
+                  <input name="fecha" type="date">
+                  <label>Hora:</label>
+                  <input type="time" name="hora">
+                  <br><br>
+                  <textarea cols="80" name="observaciones" rows="8" placeholder="Escribe tus sugerencias o comentarios"></textarea>
+                  <input class="botonenviar" type="submit" value="Enviar">
+                  <br><br>
+               </form>
+            </div>
+         </div>
+         <!--fin contenido-->
+         <div id="pie">
+            <div class="direccion">
+               <img src="img/posicion250.png" alt="direccion">
+               <h3 style="margin-top: 16px;">Ronda das Fontiñas 41, bajo.</h3>
+               <h3>27002. Lugo. Galicia</h3>
+            </div>
+            <div class="telefono">
+               <img src="img/movil100.png" alt="telefono"><br><br>
+               <a href="tel:+34982000000">LLámanos</a>
+               <h3>Telf: 982 00 00 00</h3>
+            </div>
+            <div class="mail">
+               <img src="img/mail100.png" alt="email"><br>
+               <a href="mailto:info.heladerias@heladerias.com" style="margin-top: 85px;">Envía tu email</a>
+               <h3 >info.heladerias@heladerias.com</h3>
+            </div>
+         </div>
+         <!--fin de pie-->
+      </div>
+      <!--fin de contendor-->
+   </body>
+</html>

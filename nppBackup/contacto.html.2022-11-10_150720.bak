@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+   <head>
+      <meta charset="UTF-8">
+      <link rel="stylesheet" href="css/contacto.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="description" content="sitio de heladeria el polo">
+      <meta name="keyword" content="adaptble, fijo, caballo">
+      <meta name="author" content="Manuel Balbás">
+      <meta name="audience" content="all">
+      <title>Heladería El Polo</title>
+	 
+   </head>
+   <body>
+      <div id="contenedor">
+         <div id="cabecera">
+            <h1>HELADERÍA EL POLO</h1>
+            <ul>
+               <li><a href="index.html">Home</a></li>
+               <li><a href="helados.html">Helados</a></li>
+               <li><a href="sundaes.html">Sundaes</a></li>
+               <li><a href=""class="active" href="#">Contacto</a></li>
+               <li><a href="localizacion.html">Dónde estamos</a></li>
+            </ul>
+         </div>
+         <!--fin cabecera-->
+         <div id="contenido">
+           <form action="procesar.php" method="post">
+  <div class="fila">
+    <div class="columna">
+      <label for="fname">Nombre</label>
+    </div>
+    <div class="columna2">
+      <input type="text" id="fname" name="firstname" placeholder="Tu nombre..">
+    </div>
+  </div>
+  <div class="fila">
+    <div class="columna">
+      <label for="nombre">Apellidos</label>
+    </div>
+    <div class="columna2">
+      <input type="text" id="nombre" name="apellido" placeholder="Tu apellido..">
+    </div>
+  </div>
+  <div class="fila">
+    <div class="columna">
+      <label for="provincia">Provincia</label>
+    </div>
+    <div class="columna2">
+      <select id="provincia" name="provincia">
+        <option value="coruña">A Coruña</option>
+        <option value="lugo">Lugo</option>
+        <option value="ourense">Ourense</option>
+        <option value="pontevedra">Pontevedra</option>
+      </select>
+    </div>
+  </div>
+  <div class="fila">
+    <div class="columna">
+      <label for="comentarios">Comentarios</label>
+    </div>
+    <div class="columna2">
+      <textarea id="comentarios" name="comentarios" placeholder="Escribe tu comentario..." style="height:200px"></textarea>
+    </div>
+  </div>
+  <br>
+  <div class="fila">
+    <input type="submit" value="Enviar">
+  </div>
+  </form>
+          
+         </div>
+         <!--fin contenido-->
+         <div id="pie">
+            <div class="direccion">
+               <img src="img/posicion250.png" alt="direccion">
+               <h3 style="margin-top: 16px;">Ronda das Fontiñas 41, bajo.</h3>
+               <h3>27002. Lugo. Galicia</h3>
+            </div>
+            <div class="mail">
+               <img src="img/mail100.png" alt="email">
+               <h3><a href="tel:+34982000000"></h3>
+               <h3>Móvil- 666 487 754</h3>
+            </div>
+            <div class="telefono">
+               <img src="img/movil100.png" alt="telefono">
+               <h3 style="margin-top: 65px;">contacto.heladerias@heladerias.com</h3>
+               <h3>info.heladerias@heladerias.com</h3>
+            </div>
+         </div>
+         <!--fin de pie-->
+      </div>
+      <!--fin de contendor-->
+   </body>
+</html>

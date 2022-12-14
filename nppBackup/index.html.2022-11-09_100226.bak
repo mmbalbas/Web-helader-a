@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+   <head>
+      <meta charset="UTF-8">
+      <link rel="stylesheet" href="css/index.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="description" content="sitio de heladeria el polo">
+      <meta name="keyword" content="adaptble, fijo, caballo">
+      <meta name="author" content="Manuel Balbás">
+      <meta name="audience" content="all">
+      <title>Heladería El Polo</title>
+   </head>
+   <body>
+      <div id="contenedor">
+         <div id="cabecera">
+            <h1>HELADERÍA EL POLO</h1>
+            <ul>
+               <li><a class="active" href="#">Enlace</a></li>
+               <li><a href="#">Enlace</a></li>
+               <li><a href="#">Enlace</a></li>
+               <li><a href="#">Enlace</a></li>
+               <li><a href="#">Enlace</a></li>
+            </ul>
+         </div>
+         <!--fin cabecera-->
+         <div id="contenido">
+            <div class="principal">
+               <h2>SABORES</h2>
+               <img src="img/sabores.jpg" alt="helado"><br><br><br>
+               <details>
+                  <summary id="helados">HELADOS</summary>
+                  <p>Hazel-nuttin' But Chocolate</p>
+                  <p >Caramel Chew Chew</p>
+                  <p>PCherry Garcia®</p>
+                  <p>Chocolate Fudge Brownie</p>
+                  <p>Cookie Dough</p>
+                  <p>Double Caramel Brownie</p>
+                  <p>Peanut Butter Cup</p>
+                  <p>Phish Food</p>
+               </details>
+            </div>
+            <div class="principal">
+               <h2>SUNDAES</h2>
+               <img src="img/sundae.jpg" alt="sundae"><br><br><br>
+               <details>
+               <summary id="sundaes">SUNDAES</summary>
+               <p value="hotfudge">Hot Fudge Sundae</p>
+               <p value="brownie">Brownie Special</p>
+               <p value="cookiesundae">Cookie Cookie Sundae</p>
+            </div>
+            <div class="principal">
+               <h2>BATIDOS</h2>
+               <img src="img/batidos.jpg" alt="batido"><br><br><br>
+               <details>
+                  <summary id="batidos">BATIDOS</summary>
+                  <p value="amor">Amor por el Chocolate</p>
+                  <p value="vainilla">Vainilla Maravilla</p>
+                  <p value="caramel">Caramel Lovers</p>
+                  <p value="halfbaked">Half Baked®</p>
+               </details>
+            </div>
+            <div class="principal">
+               <h2>OFERTAS COMPLEMENTARIAS</h2>
+               <img src="img/ofertas.jpg" alt="ofertas"><br><br><br>
+               <details>
+                  <summary id="ofertas">OFERTAS ADICIONALES</summary>
+                  <p value="crepes">Crepes</p>
+                  <p value="gofres">Gofres</p>
+               </details>
+            </div>
+         </div>
+         <!--fin contenido-->
+         <div id="pie">
+            <div id="foothead">
+               <h2>PARRAFOS Y VARIOS</h2>
+            </div>
+            <!--fin de foothead-->
+            <div id="avisos">
+               <ul>
+                  <li class="contactanos-1">
+                     <a href="#" target="_self">Contáctanos</a>
+                  </li>
+                  <li class="aviso-de-privacidad">
+                     <a href="#" target="_blank">Aviso de Privacidad</a>
+                  </li>
+                  <li class="cqpolicy">
+                     <a href="#" target="_blank">Aviso de Cookies</a>
+                  </li>
+                  <li class="mapa-del-sitio">
+                     <a href="#" >Mapa del Sitio</a>
+                  </li>
+                  <li class="aviso-legal-1">
+                     <a href="#" target="_blank">Aviso Legal</a>
+                  </li>
+               </ul>
+            </div>
+            <!--fin de avisos-->
+         </div>
+         <!--fin de pie-->
+      </div>
+      <!--fin de contendor-->
+   </body>
+</html>

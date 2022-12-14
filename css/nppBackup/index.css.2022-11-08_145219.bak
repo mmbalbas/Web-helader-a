@@ -1,0 +1,74 @@
+ #contenedor {
+         box-sizing: border-box;
+         width: 100%;
+         margin:0;
+         padding: 0;
+
+ /* background-image: url("img/fondo-principal1920x1369.jpg");*/
+         }
+         #cabecera{
+         width: 100%;
+         min-height: 150px;
+         background-color:green;
+         }
+         #menu {
+         float: left;
+         width: 15%;
+         min-height: 400px;
+       
+         }
+         ul {
+         list-style-type: none;
+         margin: 0;
+         padding: 0;
+         width: 100%;
+         background-color: #9acd32;
+         border: 1px solid #90ee90;
+         }
+         li a{
+         display: block;
+         color: #000;
+         text-align: center;
+         padding: 10px 18px;
+         text-decoration: none;
+         }
+li {
+text-align: center;
+border-bottom: 1px solid #3cb371;
+}
+li:last-child{
+border-bottom: none;
+}
+li a.active {
+         background-color: #32cd32;
+         color: white;
+         }
+li a:hover:not(.active) {
+background-color: #90ee90;
+color: white;
+}
+         #contenido {
+         float: left;
+         width: 85%;
+         min-height: 400px;
+         
+         }
+         #principal {
+         width:85%;
+         float: left;
+         min-height: 400PX;
+         background: url("../img/ice-cream-3611698_1920.jpg") no-repeat center fixed;
+         background-size: cover;
+         }
+         #secundario {
+         width:15%;
+         float: left;
+         min-height: 400PX;
+         background-color: pink;
+         }
+         #pie{
+         clear: both;     
+         width: 100%;
+         min-height: 300px;
+         background-color:green;
+         }

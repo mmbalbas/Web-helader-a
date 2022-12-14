@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Maqueta de dos columnas</title>
+      <style>
+         #contenedor {
+         box-sizing: border-box;
+         width: 100%;
+         margin:0;
+         padding: 0;
+         }
+         #cabecera{
+         width: 100%;
+         min-height: 150px;
+         background-color:green;
+         }
+         #menu {
+         float: left;
+         width: 15%;
+         min-height: 400px;
+         background-color: blue;
+         }
+         #contenido {
+         float: left;
+         width: 85%;
+         min-height: 400px;
+         }
+         #principal {
+         width:85%;
+         float: left;
+         min-height: 400PX;
+         background-color: yellow;
+         }
+         #secundario {
+         width:15%;
+         float: left;
+         min-height: 400PX;
+         background-color: pink;
+         }
+         #pie{
+         clear: both;     
+         width: 100%;
+         min-height: 300px;
+         background-color:green;
+         }
+      </style>
+   </head>
+   <body>
+      <div id="contenedor">
+         <div id="cabecera">
+            <h1>Cabecera</h1>
+         </div>
+         <!--fin cabecera-->
+         <div id="menu">
+            <strong>Enlaces</strong>
+         </div>
+         <!--fin menu-->
+         <div id="contenido">
+            <div id="principal">
+               <h2>Contenidos</h2>
+            </div>
+            <div id="secundario">
+               <h3>Aside</h3>
+            </div>
+         </div>
+         <!--fin contenido-->
+         <div id="pie"><small>Pie</small></div>
+         <!--fin de pie-->
+      </div>
+      <!--fin de contendor-->
+   </body>
+</html>

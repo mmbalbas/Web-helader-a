@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+   <head>
+      <meta charset="UTF-8">
+      <link rel="stylesheet" href="css/sundaes.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="description" content="sitio de heladeria el polo">
+      <meta name="keyword" content="adaptble, fijo, caballo">
+      <meta name="author" content="Manuel Balbás">
+      <meta name="audience" content="all">
+      <title>Heladería El Polo</title>
+      <style> 
+         .mapa iframe {
+         width: 100%; 
+         }
+      </style>
+   </head>
+   <body>
+      <div id="contenedor">
+         <div id="cabecera">
+            <h1>HELADERÍA EL POLO</h1>
+            <ul>
+               <li><a href="index.html">Home</a></li>
+               <li><a href="helados.html">Helados</a></li>
+               <li><a class="active" href="#">Sundaes</a></li>
+               <li><a href="batidos.html">Contacto</a></li>
+               <li><a href="localizacion.html">Dónde estamos</a></li>
+            </ul>
+         </div>
+         <!--fin cabecera-->
+         <div id="contenido">
+            <div class="tiposhelados">
+               <img src="img/sundae.png" alt="helado"><br><br>
+               <p class="descripcion">
+                  <strong>Hot Fudge Sundae</strong><br>
+                  Dos sabores de Helado, cubiertos con chcolate derretido y nata con cualquier topping de tu elección.
+               </p>
+            </div>
+            <div class="tiposhelados">
+               <img src="img/sundae.png" alt="helado"><br><br>
+               <p class="descripcion">
+                  <strong>Brownie Special</strong><br>
+                  Un Brownie con el Helado de tu elección, chocolate caliente y nata con cualquier topping de tu elección.
+               </p>
+            </div>
+            <div class="tiposhelados">
+               <img src="img/sundae.png" alt="helado"><br><br>
+               <p class="descripcion">
+                  <strong>Cookie Cookie Sundae™</strong><br>
+                  Helado a elegir con chocolate caliente, nata con cualquier topping de tu elección, servido en nuestros exclusivos Cone Waffles!
+               </p>
+            </div>
+         </div>
+         <!--fin contenido-->
+         <div id="pie">
+            <div class="direccion">
+               <img src="img/posicion250.png" alt="direccion">
+               <h3 style="margin-top: 16px;">Ronda das Fontiñas 41, bajo.</h3>
+               <h3>27002. Lugo. Galicia</h3>
+            </div>
+            <div class="mail">
+               <img src="img/mail100.png" alt="email">
+               <h3>Tfno- 982 000 000</h3>
+               <h3>Móvil- 666 487 754</h3>
+            </div>
+            <div class="telefono">
+               <img src="img/movil100.png" alt="telefono">
+               <h3 style="margin-top: 65px;">contacto.heladerias@heladerias.com</h3>
+               <h3>info.heladerias@heladerias.com</h3>
+            </div>
+         </div>
+         <!--fin de pie-->
+      </div>
+      <!--fin de contendor-->
+   </body>
+</html>

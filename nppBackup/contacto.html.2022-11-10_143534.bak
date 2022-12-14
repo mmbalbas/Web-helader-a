@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+   <head>
+      <meta charset="UTF-8">
+      <link rel="stylesheet" href="css/contacto.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="description" content="sitio de heladeria el polo">
+      <meta name="keyword" content="adaptble, fijo, caballo">
+      <meta name="author" content="Manuel Balbás">
+      <meta name="audience" content="all">
+      <title>Heladería El Polo</title>
+	 
+   </head>
+   <body>
+      <div id="contenedor">
+         <div id="cabecera">
+            <h1>HELADERÍA EL POLO</h1>
+            <ul>
+               <li><a href="index.html">Home</a></li>
+               <li><a href="helados.html">Helados</a></li>
+               <li><a href="sundaes.html">Sundaes</a></li>
+               <li><a href="contacto.html">Contacto</a></li>
+               <li><a class="active" href="#">Dónde estamos</a></li>
+            </ul>
+         </div>
+         <!--fin cabecera-->
+         <div id="contenido">
+           <form action="/action_page.php">
+  <div class="row">
+    <div class="col-25">
+      <label for="fname">First Name</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="lname">Last Name</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="country">Country</label>
+    </div>
+    <div class="col-75">
+      <select id="country" name="country">
+        <option value="australia">Australia</option>
+        <option value="canada">Canada</option>
+        <option value="usa">USA</option>
+      </select>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="subject">Subject</label>
+    </div>
+    <div class="col-75">
+      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+    </div>
+  </div>
+  <br>
+  <div class="row">
+    <input type="submit" value="Submit">
+  </div>
+  </form>
+          
+         </div>
+         <!--fin contenido-->
+         <div id="pie">
+            <div class="direccion">
+               <img src="img/posicion250.png" alt="direccion">
+               <h3 style="margin-top: 16px;">Ronda das Fontiñas 41, bajo.</h3>
+               <h3>27002. Lugo. Galicia</h3>
+            </div>
+            <div class="mail">
+               <img src="img/mail100.png" alt="email">
+               <h3>Tfno- 982 000 000</h3>
+               <h3>Móvil- 666 487 754</h3>
+            </div>
+            <div class="telefono">
+               <img src="img/movil100.png" alt="telefono">
+               <h3 style="margin-top: 65px;">contacto.heladerias@heladerias.com</h3>
+               <h3>info.heladerias@heladerias.com</h3>
+            </div>
+         </div>
+         <!--fin de pie-->
+      </div>
+      <!--fin de contendor-->
+   </body>
+</html>
